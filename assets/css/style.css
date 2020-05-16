@@ -1,0 +1,22 @@
+body{
+    background-color: silver;
+}
+.jumbotron.jumbotron-fluid{
+background-color: rgb(43, 37, 82);
+color: white;
+}
+.search{
+    margin-left: 51px;
+}
+
+.buttons{
+    margin-left: 20px;
+
+}
+#GIFs{
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.btn.btn-info{
+    background-color: teal;
+}
