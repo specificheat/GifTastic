@@ -97,20 +97,18 @@ $(document).ready(function(){
             });
     
     
-    //====================Still and Animate Image ==================================
-        // Listens for a click on any image (dynamic)
-        // $('.showImage').on('click', function(){ --> won't work here
+    
         $(document).on('click', '.showImage',  function() {
     
             var state = $(this).data('state');
-            //If the clicked image's state is still, update its src attribute to what its data-animate value is
+            
             if (state == "still") {
                 console.log("still image works");
-             // Then, set the image's data-state to animate
+             
                 $(this).attr('src', $(this).data('animate'))
                        .data('state', 'animate');
             } else {
-            //  else set src to the data-still value
+            
                 console.log("animated image works");
                 $(this).attr('src', $(this).data('still'))
                        .data('state', 'still');               
